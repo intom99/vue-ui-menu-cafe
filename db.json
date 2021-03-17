@@ -1,38 +1,38 @@
 {
-    "best-drink" :[
+    "best-drink": [
         {
             "id": 1,
             "code": "D-01",
-            "name": "",
-            "price": 18000,
+            "name": "Latte",
+            "price": 22000,
             "is_ready": true,
-            "img": ""
+            "img": "latte.jpg"
         },
         {
             "id": 2,
             "code": "D-02",
-            "name": "",
+            "name": "Matcha",
             "price": 18000,
             "is_ready": true,
-            "img": ""
+            "img": "matcha.jpg"
         },
         {
             "id": 3,
-            "code": "D-02",
-            "name": "",
-            "price": 18000,
+            "code": "D-03",
+            "name": "Ice Cream",
+            "price": 20000,
             "is_ready": true,
-            "img": ""
+            "img": "ice cream.jpg"
         }
     ],
     "drink": [
         {
-            "id": 3,
+            "id": 2,
             "code": "D-02",
-            "name": "",
+            "name": "Matcha",
             "price": 18000,
             "is_ready": true,
-            "img": ""
+            "img": "https://i.pinimg.com/564x/8d/b5/fd/8db5fda2f3c353382fff13d462d9c1ef.jpg"
         }
     ],
     "cart":[],
