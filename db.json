@@ -1,0 +1,40 @@
+{
+    "best-drink" :[
+        {
+            "id": 1,
+            "code": "D-01",
+            "name": "",
+            "price": 18000,
+            "is_ready": true,
+            "img": ""
+        },
+        {
+            "id": 2,
+            "code": "D-02",
+            "name": "",
+            "price": 18000,
+            "is_ready": true,
+            "img": ""
+        },
+        {
+            "id": 3,
+            "code": "D-02",
+            "name": "",
+            "price": 18000,
+            "is_ready": true,
+            "img": ""
+        }
+    ],
+    "drink": [
+        {
+            "id": 3,
+            "code": "D-02",
+            "name": "",
+            "price": 18000,
+            "is_ready": true,
+            "img": ""
+        }
+    ],
+    "cart":[],
+    "order": []
+  }
