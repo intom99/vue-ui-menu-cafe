@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="card" style="width: 21rem">
+    <div class="card shadow">
       <img
         :src="'assets/img/' + product.img"
         class="card-img-top"
@@ -8,7 +8,7 @@
         alt="images"
       />
       <div class="card-body">
-        <h5 class="card-title">{{ product.name }}</h5>
+        <h4 class="card-title">{{ product.name }}</h4>
         <p class="card-text">
           Rp. {{ product.price }}
         </p>

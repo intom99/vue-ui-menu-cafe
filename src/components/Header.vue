@@ -6,7 +6,7 @@
       <div class="col">
           <div class="d-flex h-100">
               <div class="justify-content-center align-self-center">
-              <h2><strong>Delicious Food Menu, </strong><br> in Your Gadget</h2>
+              <h2><strong>Delicious Drink and Food, </strong><br> in Your Gadget</h2>
               <p>Choose the menu list </p>
               <router-link to="/" class="btn btn-lg btn-primary">Order Here <b-icon-chevron-double-right></b-icon-chevron-double-right></router-link>
          </div>

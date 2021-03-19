@@ -15,7 +15,7 @@
         </div>
       </div>
 
-      <div class="row mb-3">
+      <div class="row mb-4">
         <div
           class="col-md-4 mt-4"
           v-for="product in products"
@@ -23,8 +23,8 @@
         >
           <Product :product="product" />
         </div>
-
       </div>
+
       <!-- end of container -->
     </div>
   </div>
@@ -35,6 +35,7 @@
 import Navbar from "@/components/Navbar.vue";
 import Header from "@/components/Header.vue";
 import Product from "@/components/Product.vue";
+
 import axios from "axios";
 
 export default {
