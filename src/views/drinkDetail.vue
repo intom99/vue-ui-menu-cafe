@@ -34,14 +34,14 @@
 
           <form class="mt-5">
               <div class="form-group">
-                  <label for="mount">Mount</label>
+                  <label for="amount" class="font-weight-bold">Amount</label>
                   <input type="number" class="form-control">
               </div>
               <div class="form-group">
-                  <label for="">Notes</label>
+                  <label for="notes" class="font-weight-bold">Notes</label>
                   <textarea name="note" class="form-control" cols="10" rows="5" placeholder="notes : extra sugar, extra ice, etc"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary"><b-icon-cart class="mr-2"></b-icon-cart>Order Proses</button>
+              <button type="submit" class="btn btn-primary mt-2"><b-icon-cart class="mr-2"></b-icon-cart>Order Proses</button>
           </form>
         </div>
       </div>
