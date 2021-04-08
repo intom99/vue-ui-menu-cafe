@@ -15,3 +15,7 @@
 .card-img-top {
   border-radius: 15px 15px 0 0;
 }
+.img-fluid{
+  border-radius: 15px;
+  height: 500px;
+ }

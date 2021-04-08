@@ -12,7 +12,7 @@
         <p class="card-text">
           Rp. {{ product.price }}
         </p>
-        <a href="#" class="btn btn-primary"><b-icon-basket class="mr-2"></b-icon-basket>  Order</a>
+        <router-link :to="'/drinks/'+product.id" class="btn btn-primary"><b-icon-basket class="mr-2"></b-icon-basket>  Order</router-link>
       </div>
     </div>
   </div>
