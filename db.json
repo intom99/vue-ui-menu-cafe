@@ -135,7 +135,7 @@
   "cart": [
     {
       "amount": "2",
-      "note": "double coffee",
+      "note": "extra milk",
       "products": {
         "id": 4,
         "code": "D-04",
@@ -148,7 +148,7 @@
     },
     {
       "amount": "2",
-      "note": "double coffee",
+      "note": "extra milk",
       "products": {
         "id": 4,
         "code": "D-04",
@@ -160,8 +160,8 @@
       "id": 2
     },
     {
-      "amount": "1",
-      "note": "double americano",
+      "amount": "2",
+      "note": "Double Americano",
       "products": {
         "id": 1,
         "code": "D-01",
@@ -173,8 +173,8 @@
       "id": 3
     },
     {
-      "amount": "1",
-      "note": "double americano",
+      "amount": "2",
+      "note": "Double Americano",
       "products": {
         "id": 1,
         "code": "D-01",
@@ -184,214 +184,6 @@
         "img": "americano.jpg"
       },
       "id": 4
-    },
-    {
-      "amount": "1",
-      "note": "double americano",
-      "products": {
-        "id": 1,
-        "code": "D-01",
-        "name": "Americano",
-        "price": 25000,
-        "is_ready": true,
-        "img": "americano.jpg"
-      },
-      "id": 5
-    },
-    {
-      "amount": "1",
-      "note": "double americano",
-      "products": {
-        "id": 1,
-        "code": "D-01",
-        "name": "Americano",
-        "price": 25000,
-        "is_ready": true,
-        "img": "americano.jpg"
-      },
-      "id": 6
-    },
-    {
-      "amount": "1",
-      "note": "extra matcha",
-      "products": {
-        "id": 8,
-        "code": "D-08",
-        "name": "Matcha",
-        "price": 23000,
-        "is_ready": true,
-        "img": "matcha.jpg"
-      },
-      "id": 7
-    },
-    {
-      "amount": "1",
-      "note": "extra matcha",
-      "products": {
-        "id": 8,
-        "code": "D-08",
-        "name": "Matcha",
-        "price": 23000,
-        "is_ready": true,
-        "img": "matcha.jpg"
-      },
-      "id": 8
-    },
-    {
-      "amount": "1",
-      "note": "extra matcha",
-      "products": {
-        "id": 8,
-        "code": "D-08",
-        "name": "Matcha",
-        "price": 23000,
-        "is_ready": true,
-        "img": "matcha.jpg"
-      },
-      "id": 9
-    },
-    {
-      "note": "extra choco",
-      "amount": "1",
-      "products": {
-        "id": 7,
-        "code": "D-07",
-        "name": "Chocolate",
-        "price": 19000,
-        "is_ready": true,
-        "img": "chocolate.jpg"
-      },
-      "id": 10
-    },
-    {
-      "note": "extra choco",
-      "amount": "1",
-      "products": {
-        "id": 7,
-        "code": "D-07",
-        "name": "Chocolate",
-        "price": 19000,
-        "is_ready": true,
-        "img": "chocolate.jpg"
-      },
-      "id": 11
-    },
-    {
-      "note": "extra choco",
-      "amount": "1",
-      "products": {
-        "id": 7,
-        "code": "D-07",
-        "name": "Chocolate",
-        "price": 19000,
-        "is_ready": true,
-        "img": "chocolate.jpg"
-      },
-      "id": 12
-    },
-    {
-      "note": "extra choco",
-      "amount": "1",
-      "products": {
-        "id": 7,
-        "code": "D-07",
-        "name": "Chocolate",
-        "price": 19000,
-        "is_ready": true,
-        "img": "chocolate.jpg"
-      },
-      "id": 13
-    },
-    {
-      "note": "extra palm sugar",
-      "amount": "4",
-      "products": {
-        "id": 5,
-        "code": "D-05",
-        "name": "Coffee with Palm Sugar",
-        "price": 28000,
-        "is_ready": true,
-        "img": "coffee with palm sugar.jpg"
-      },
-      "id": 14
-    },
-    {
-      "note": "extra palm sugar",
-      "amount": "4",
-      "products": {
-        "id": 5,
-        "code": "D-05",
-        "name": "Coffee with Palm Sugar",
-        "price": 28000,
-        "is_ready": true,
-        "img": "coffee with palm sugar.jpg"
-      },
-      "id": 15
-    },
-    {
-      "note": "extra palm sugar",
-      "amount": "4",
-      "products": {
-        "id": 5,
-        "code": "D-05",
-        "name": "Coffee with Palm Sugar",
-        "price": 28000,
-        "is_ready": true,
-        "img": "coffee with palm sugar.jpg"
-      },
-      "id": 16
-    },
-    {
-      "note": "extra palm sugar",
-      "amount": "4",
-      "products": {
-        "id": 5,
-        "code": "D-05",
-        "name": "Coffee with Palm Sugar",
-        "price": 28000,
-        "is_ready": true,
-        "img": "coffee with palm sugar.jpg"
-      },
-      "id": 17
-    },
-    {
-      "note": "extra palm sugar",
-      "amount": "4",
-      "products": {
-        "id": 5,
-        "code": "D-05",
-        "name": "Coffee with Palm Sugar",
-        "price": 28000,
-        "is_ready": true,
-        "img": "coffee with palm sugar.jpg"
-      },
-      "id": 18
-    },
-    {
-      "note": "extra palm sugar",
-      "amount": "4",
-      "products": {
-        "id": 5,
-        "code": "D-05",
-        "name": "Coffee with Palm Sugar",
-        "price": 28000,
-        "is_ready": true,
-        "img": "coffee with palm sugar.jpg"
-      },
-      "id": 19
-    },
-    {
-      "note": "extra palm sugar",
-      "amount": "4",
-      "products": {
-        "id": 5,
-        "code": "D-05",
-        "name": "Coffee with Palm Sugar",
-        "price": 28000,
-        "is_ready": true,
-        "img": "coffee with palm sugar.jpg"
-      },
-      "id": 20
     }
   ],
   "order": []

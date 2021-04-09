@@ -89,14 +89,14 @@ export default {
         axios
           .post("http://localhost:3000/cart", this.order)
           .then(() => {
-            this.$router.push({ path: '/cart' })
+            this.$router.push({ path: "/cart" })
             this.$toast.success("Order Entries in Cart", {
               type: "success",
               position: "top-right",
               duration: 3000,
               dismissible: true,
             });
-            console.log("berhasil");
+           
           })
           .catch((err) => console.log("Error", err));
       } else {
