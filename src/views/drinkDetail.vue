@@ -32,16 +32,31 @@
             Price : <strong>Rp. {{ product.price }}</strong>
           </h4>
 
-          <form class="mt-5">
-              <div class="form-group">
-                  <label for="amount" class="font-weight-bold">Amount</label>
-                  <input type="number" class="form-control">
-              </div>
-              <div class="form-group">
-                  <label for="notes" class="font-weight-bold">Notes</label>
-                  <textarea name="note" class="form-control" cols="10" rows="5" placeholder="notes : extra sugar, extra ice, etc"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary mt-2"><b-icon-cart class="mr-2"></b-icon-cart>Order Proses</button>
+          <form class="mt-5" v-on:submit.prevent>
+            <div class="form-group">
+              <label for="amount" class="font-weight-bold">Amount</label>
+              <input
+                name="amount"
+                type="number"
+                class="form-control"
+                v-model="order.amount"
+              />
+            </div>
+            <div class="form-group">
+              <label for="note" class="font-weight-bold">Notes</label>
+              <textarea
+                name="note"
+                v-model="order.note"
+                class="form-control"
+                cols="10"
+                rows="5"
+                placeholder="notes : extra sugar, extra ice, etc"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2">
+              <b-icon-cart class="mr-2" @click="orderHere"></b-icon-cart>Order
+              Proses
+            </button>
           </form>
         </div>
       </div>
@@ -61,11 +76,37 @@ export default {
   data() {
     return {
       product: {},
+      order: {},
     };
   },
   methods: {
     setProduct(data) {
       this.product = data;
+    },
+    orderHere() {
+      if (this.order.amount) {
+        this.order.products = this.product;
+        axios
+          .post("http://localhost:3000/cart", this.order)
+          .then(() => {
+            this.$router.push({ path: '/cart' })
+            this.$toast.success("Order Entries in Cart", {
+              type: "success",
+              position: "top-right",
+              duration: 3000,
+              dismissible: true,
+            });
+            console.log("berhasil");
+          })
+          .catch((err) => console.log("Error", err));
+      } else {
+        this.$toast.error("Please enter the order amount", {
+          type: "error",
+          position: "top-right",
+          duration: 3000,
+          dismissible: true,
+        });
+      }
     },
   },
   mounted() {

@@ -1,137 +1,398 @@
 {
-    "best-drink": [
-        {
-            "id": 3,
-            "code": "D-03",
-            "name": "Latte",
-            "price": 22000,
-            "is_ready": true,
-            "img": "latte.jpg"
-        },
-        {
-            "id": 8,
-            "code": "D-08",
-            "name": "Matcha",
-            "price": 23000,
-            "is_ready": true,
-            "img": "matcha.jpg"
-        },
-        {
-            "id": 9,
-            "code": "D-09",
-            "name": "Ice Cream",
-            "price": 23000,
-            "is_ready": true,
-            "img": "ice cream.jpg"
-        }
-    ],
-    "drink": [
-        {
-            "id": 1,
-            "code": "D-01",
-            "name": "Americano",
-            "price": 25000,
-            "is_ready": true,
-            "img": "americano.jpg"
-        },
-        {
-            "id": 2,
-            "code": "D-02",
-            "name": "Moccachino",
-            "price": 27000,
-            "is_ready": true,
-            "img": "Moccachino.jpg"
-        },
-        {
-            "id": 3,
-            "code": "D-03",
-            "name": "Latte",
-            "price": 22000,
-            "is_ready": true,
-            "img": "latte.jpg"
-        },
-        {
-            "id": 4,
-            "code": "D-04",
-            "name": "Coffee Milk",
-            "price": 20000,
-            "is_ready": true,
-            "img": "coffee milk.jpg"
-        },
-        {
-            "id": 5,
-            "code": "D-05",
-            "name": "Coffee with Palm Sugar",
-            "price": 28000,
-            "is_ready": true,
-            "img": "coffee with palm sugar.jpg"
-        },
-        {
-            "id": 6,
-            "code": "D-06",
-            "name": "Lemon Tea",
-            "price": 20000,
-            "is_ready": true,
-            "img": "lemon tea.jpg"
-        },
-        {
-            "id": 7,
-            "code": "D-07",
-            "name": "Chocolate",
-            "price": 19000,
-            "is_ready": true,
-            "img": "chocolate.jpg"
-        },
-        {
-            "id": 8,
-            "code": "D-08",
-            "name": "Matcha",
-            "price": 23000,
-            "is_ready": true,
-            "img": "matcha.jpg"
-        },
-        {
-            "id": 9,
-            "code": "D-09",
-            "name": "Ice Cream",
-            "price": 23000,
-            "is_ready": true,
-            "img": "ice cream.jpg"
-        },
-        {
-            "id": 10,
-            "name": "Strawberry Smooth",
-            "price": 23000,
-            "is_ready": true,
-            "img": "strawberry smooth.jpg"
-        }
-    ],
-    "best-food": [
-        {
-            "id":5,
-            "code": "F-01",
-            "name": "Ramen",
-            "price": 27000,
-            "is_ready":true,
-            "img": "ramen.jpg"
-        },
-        {
-            "id":2,
-            "code": "F-02",
-            "name": "Beef Burger",
-            "price": 25000,
-            "is_ready":true,
-            "img": "beef burger.jpg"
-        },
-        {
-            "id":4,
-            "code": "F-03",
-            "name": "Dounat",
-            "price": 10000,
-            "is_ready":true,
-            "img": "dounat.jpg"
-        }
-    ],
-    "cart": [],
-    "order": []
-  }
+  "best-drink": [
+    {
+      "id": 3,
+      "code": "D-03",
+      "name": "Latte",
+      "price": 22000,
+      "is_ready": true,
+      "img": "latte.jpg"
+    },
+    {
+      "id": 8,
+      "code": "D-08",
+      "name": "Matcha",
+      "price": 23000,
+      "is_ready": true,
+      "img": "matcha.jpg"
+    },
+    {
+      "id": 9,
+      "code": "D-09",
+      "name": "Ice Cream",
+      "price": 23000,
+      "is_ready": true,
+      "img": "ice cream.jpg"
+    }
+  ],
+  "drink": [
+    {
+      "id": 1,
+      "code": "D-01",
+      "name": "Americano",
+      "price": 25000,
+      "is_ready": true,
+      "img": "americano.jpg"
+    },
+    {
+      "id": 2,
+      "code": "D-02",
+      "name": "Moccachino",
+      "price": 27000,
+      "is_ready": true,
+      "img": "Moccachino.jpg"
+    },
+    {
+      "id": 3,
+      "code": "D-03",
+      "name": "Latte",
+      "price": 22000,
+      "is_ready": true,
+      "img": "latte.jpg"
+    },
+    {
+      "id": 4,
+      "code": "D-04",
+      "name": "Coffee Milk",
+      "price": 20000,
+      "is_ready": true,
+      "img": "coffee milk.jpg"
+    },
+    {
+      "id": 5,
+      "code": "D-05",
+      "name": "Coffee with Palm Sugar",
+      "price": 28000,
+      "is_ready": true,
+      "img": "coffee with palm sugar.jpg"
+    },
+    {
+      "id": 6,
+      "code": "D-06",
+      "name": "Lemon Tea",
+      "price": 20000,
+      "is_ready": true,
+      "img": "lemon tea.jpg"
+    },
+    {
+      "id": 7,
+      "code": "D-07",
+      "name": "Chocolate",
+      "price": 19000,
+      "is_ready": true,
+      "img": "chocolate.jpg"
+    },
+    {
+      "id": 8,
+      "code": "D-08",
+      "name": "Matcha",
+      "price": 23000,
+      "is_ready": true,
+      "img": "matcha.jpg"
+    },
+    {
+      "id": 9,
+      "code": "D-09",
+      "name": "Ice Cream",
+      "price": 23000,
+      "is_ready": true,
+      "img": "ice cream.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Strawberry Smooth",
+      "price": 23000,
+      "is_ready": true,
+      "img": "strawberry smooth.jpg"
+    }
+  ],
+  "best-food": [
+    {
+      "id": 5,
+      "code": "F-01",
+      "name": "Ramen",
+      "price": 27000,
+      "is_ready": true,
+      "img": "ramen.jpg"
+    },
+    {
+      "id": 2,
+      "code": "F-02",
+      "name": "Beef Burger",
+      "price": 25000,
+      "is_ready": true,
+      "img": "beef burger.jpg"
+    },
+    {
+      "id": 4,
+      "code": "F-03",
+      "name": "Dounat",
+      "price": 10000,
+      "is_ready": true,
+      "img": "dounat.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "amount": "2",
+      "note": "double coffee",
+      "products": {
+        "id": 4,
+        "code": "D-04",
+        "name": "Coffee Milk",
+        "price": 20000,
+        "is_ready": true,
+        "img": "coffee milk.jpg"
+      },
+      "id": 1
+    },
+    {
+      "amount": "2",
+      "note": "double coffee",
+      "products": {
+        "id": 4,
+        "code": "D-04",
+        "name": "Coffee Milk",
+        "price": 20000,
+        "is_ready": true,
+        "img": "coffee milk.jpg"
+      },
+      "id": 2
+    },
+    {
+      "amount": "1",
+      "note": "double americano",
+      "products": {
+        "id": 1,
+        "code": "D-01",
+        "name": "Americano",
+        "price": 25000,
+        "is_ready": true,
+        "img": "americano.jpg"
+      },
+      "id": 3
+    },
+    {
+      "amount": "1",
+      "note": "double americano",
+      "products": {
+        "id": 1,
+        "code": "D-01",
+        "name": "Americano",
+        "price": 25000,
+        "is_ready": true,
+        "img": "americano.jpg"
+      },
+      "id": 4
+    },
+    {
+      "amount": "1",
+      "note": "double americano",
+      "products": {
+        "id": 1,
+        "code": "D-01",
+        "name": "Americano",
+        "price": 25000,
+        "is_ready": true,
+        "img": "americano.jpg"
+      },
+      "id": 5
+    },
+    {
+      "amount": "1",
+      "note": "double americano",
+      "products": {
+        "id": 1,
+        "code": "D-01",
+        "name": "Americano",
+        "price": 25000,
+        "is_ready": true,
+        "img": "americano.jpg"
+      },
+      "id": 6
+    },
+    {
+      "amount": "1",
+      "note": "extra matcha",
+      "products": {
+        "id": 8,
+        "code": "D-08",
+        "name": "Matcha",
+        "price": 23000,
+        "is_ready": true,
+        "img": "matcha.jpg"
+      },
+      "id": 7
+    },
+    {
+      "amount": "1",
+      "note": "extra matcha",
+      "products": {
+        "id": 8,
+        "code": "D-08",
+        "name": "Matcha",
+        "price": 23000,
+        "is_ready": true,
+        "img": "matcha.jpg"
+      },
+      "id": 8
+    },
+    {
+      "amount": "1",
+      "note": "extra matcha",
+      "products": {
+        "id": 8,
+        "code": "D-08",
+        "name": "Matcha",
+        "price": 23000,
+        "is_ready": true,
+        "img": "matcha.jpg"
+      },
+      "id": 9
+    },
+    {
+      "note": "extra choco",
+      "amount": "1",
+      "products": {
+        "id": 7,
+        "code": "D-07",
+        "name": "Chocolate",
+        "price": 19000,
+        "is_ready": true,
+        "img": "chocolate.jpg"
+      },
+      "id": 10
+    },
+    {
+      "note": "extra choco",
+      "amount": "1",
+      "products": {
+        "id": 7,
+        "code": "D-07",
+        "name": "Chocolate",
+        "price": 19000,
+        "is_ready": true,
+        "img": "chocolate.jpg"
+      },
+      "id": 11
+    },
+    {
+      "note": "extra choco",
+      "amount": "1",
+      "products": {
+        "id": 7,
+        "code": "D-07",
+        "name": "Chocolate",
+        "price": 19000,
+        "is_ready": true,
+        "img": "chocolate.jpg"
+      },
+      "id": 12
+    },
+    {
+      "note": "extra choco",
+      "amount": "1",
+      "products": {
+        "id": 7,
+        "code": "D-07",
+        "name": "Chocolate",
+        "price": 19000,
+        "is_ready": true,
+        "img": "chocolate.jpg"
+      },
+      "id": 13
+    },
+    {
+      "note": "extra palm sugar",
+      "amount": "4",
+      "products": {
+        "id": 5,
+        "code": "D-05",
+        "name": "Coffee with Palm Sugar",
+        "price": 28000,
+        "is_ready": true,
+        "img": "coffee with palm sugar.jpg"
+      },
+      "id": 14
+    },
+    {
+      "note": "extra palm sugar",
+      "amount": "4",
+      "products": {
+        "id": 5,
+        "code": "D-05",
+        "name": "Coffee with Palm Sugar",
+        "price": 28000,
+        "is_ready": true,
+        "img": "coffee with palm sugar.jpg"
+      },
+      "id": 15
+    },
+    {
+      "note": "extra palm sugar",
+      "amount": "4",
+      "products": {
+        "id": 5,
+        "code": "D-05",
+        "name": "Coffee with Palm Sugar",
+        "price": 28000,
+        "is_ready": true,
+        "img": "coffee with palm sugar.jpg"
+      },
+      "id": 16
+    },
+    {
+      "note": "extra palm sugar",
+      "amount": "4",
+      "products": {
+        "id": 5,
+        "code": "D-05",
+        "name": "Coffee with Palm Sugar",
+        "price": 28000,
+        "is_ready": true,
+        "img": "coffee with palm sugar.jpg"
+      },
+      "id": 17
+    },
+    {
+      "note": "extra palm sugar",
+      "amount": "4",
+      "products": {
+        "id": 5,
+        "code": "D-05",
+        "name": "Coffee with Palm Sugar",
+        "price": 28000,
+        "is_ready": true,
+        "img": "coffee with palm sugar.jpg"
+      },
+      "id": 18
+    },
+    {
+      "note": "extra palm sugar",
+      "amount": "4",
+      "products": {
+        "id": 5,
+        "code": "D-05",
+        "name": "Coffee with Palm Sugar",
+        "price": 28000,
+        "is_ready": true,
+        "img": "coffee with palm sugar.jpg"
+      },
+      "id": 19
+    },
+    {
+      "note": "extra palm sugar",
+      "amount": "4",
+      "products": {
+        "id": 5,
+        "code": "D-05",
+        "name": "Coffee with Palm Sugar",
+        "price": 28000,
+        "is_ready": true,
+        "img": "coffee with palm sugar.jpg"
+      },
+      "id": 20
+    }
+  ],
+  "order": []
+}
