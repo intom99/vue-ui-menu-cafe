@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col">
           <nav aria-label="breadcrumb">
-            <ol class="breadcrumb mt-5 bg-white pl-0">
+            <ol class="breadcrumb mt-4 bg-white pl-0">
               <li class="breadcrumb-item">
                 <router-link to="/" class="text-dark">Home</router-link>
               </li>
