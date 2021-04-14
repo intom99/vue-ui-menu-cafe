@@ -134,82 +134,16 @@
   ],
   "cart": [
     {
-      "amount": "2",
-      "note": "extra milk",
+      "amount": "3",
       "products": {
-        "id": 4,
-        "code": "D-04",
-        "name": "Coffee Milk",
+        "id": 6,
+        "code": "D-06",
+        "name": "Lemon Tea",
         "price": 20000,
         "is_ready": true,
-        "img": "coffee milk.jpg"
-      },
-      "id": 1
-    },
-    {
-      "amount": "2",
-      "note": "extra milk",
-      "products": {
-        "id": 4,
-        "code": "D-04",
-        "name": "Coffee Milk",
-        "price": 20000,
-        "is_ready": true,
-        "img": "coffee milk.jpg"
-      },
-      "id": 2
-    },
-    {
-      "amount": "2",
-      "note": "Double Americano",
-      "products": {
-        "id": 1,
-        "code": "D-01",
-        "name": "Americano",
-        "price": 25000,
-        "is_ready": true,
-        "img": "americano.jpg"
-      },
-      "id": 3
-    },
-    {
-      "amount": "2",
-      "note": "Double Americano",
-      "products": {
-        "id": 1,
-        "code": "D-01",
-        "name": "Americano",
-        "price": 25000,
-        "is_ready": true,
-        "img": "americano.jpg"
+        "img": "lemon tea.jpg"
       },
       "id": 4
-    },
-    {
-      "amount": "1",
-      "note": "extra coffee",
-      "products": {
-        "id": 3,
-        "code": "D-03",
-        "name": "Latte",
-        "price": 22000,
-        "is_ready": true,
-        "img": "latte.jpg"
-      },
-      "id": 5
-    },
-    {
-      "amount": "1",
-      "note": "extra coffee",
-      "products": {
-        "id": 3,
-        "code": "D-03",
-        "name": "Latte",
-        "price": 22000,
-        "is_ready": true,
-        "img": "latte.jpg"
-      },
-      "id": 6
     }
   ],
   "order": []

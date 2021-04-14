@@ -24,7 +24,7 @@
         <router-link class="nav-link" to="/cart">
         Cart 
         <b-icon-basket3></b-icon-basket3>
-        <span class="badge badge-primary ml-2"> {{ amount.length}}</span>
+        <span class="badge badge-primary ml-2"> {{ updateCart ? updateCart.length : amount.length}}</span>
         </router-link>
       </li>
       
@@ -43,6 +43,7 @@ export default {
         amount:[]
       }
     },
+    props: ['updateCart'],
     methods:{
       setAmount(data){
         this.amount = data

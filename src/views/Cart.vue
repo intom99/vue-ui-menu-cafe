@@ -1,6 +1,6 @@
 <template>
   <div class="Cart">
-    <Navbar />
+    <Navbar :updateCart="carts"/>
     <div class="container">
       <!-- breadcrumb -->
       <div class="row">
@@ -49,7 +49,7 @@
       <td align="right">Rp. {{cart.products.price}}</td>
       <td align="right"><strong>Rp. {{cart.products.price*cart.amount}}</strong> </td>
       <td align="right" class="text-danger">
-        <b-icon-trash></b-icon-trash>
+        <b-icon-trash @click="deleteCart(cart.id)"></b-icon-trash>
       </td>
     </tr>
 
@@ -85,6 +85,24 @@ export default {
   methods:{
     setCarts(data){
       this.carts = data
+    },
+    deleteCart(id){
+       axios
+      .delete("http://localhost:3000/cart/"+id)
+      .then(() =>{
+        this.$toast.error("Delete Success", {
+          type: "error",
+          position: "top-right",
+          duration: 3000,
+          dismissible: true,
+        });
+
+        axios
+      .get("http://localhost:3000/cart/")
+      .then((response) => this.setCarts(response.data))
+      .catch((error) => console.log("Gagal : ", error));
+      })
+      .catch((error) => console.log("Gagal : ", error));
     }
   },
   mounted() {

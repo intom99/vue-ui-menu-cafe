@@ -53,8 +53,8 @@
                 placeholder="notes : extra sugar, extra ice, etc"
               ></textarea>
             </div>
-            <button type="submit" class="btn btn-primary mt-2">
-              <b-icon-cart class="mr-2" @click="orderHere"></b-icon-cart>Order
+            <button @click="orderHere" type="submit" class="btn btn-success mt-2">
+              <b-icon-cart class="mr-2" ></b-icon-cart>Order
               Proses
             </button>
           </form>
