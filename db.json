@@ -132,19 +132,71 @@
       "img": "dounat.jpg"
     }
   ],
-  "cart": [
+  "cart": [],
+  "order": [
     {
-      "amount": "3",
-      "products": {
-        "id": 6,
-        "code": "D-06",
-        "name": "Lemon Tea",
-        "price": 20000,
-        "is_ready": true,
-        "img": "lemon tea.jpg"
-      },
-      "id": 4
+      "orderName": "intom",
+      "orderNumber": "1",
+      "cart": [
+        {
+          "amount": "1",
+          "note": "extra milk",
+          "products": {
+            "id": 3,
+            "code": "D-03",
+            "name": "Latte",
+            "price": 22000,
+            "is_ready": true,
+            "img": "latte.jpg"
+          },
+          "id": 1
+        },
+        {
+          "amount": "2",
+          "note": "less coffee",
+          "products": {
+            "id": 2,
+            "code": "D-02",
+            "name": "Moccachino",
+            "price": 27000,
+            "is_ready": true,
+            "img": "Moccachino.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderName": "Rahmah",
+      "orderNumber": "2",
+      "cart": [
+        {
+          "amount": "1",
+          "note": "extra ice",
+          "products": {
+            "id": 8,
+            "code": "D-08",
+            "name": "Matcha",
+            "price": 23000,
+            "is_ready": true,
+            "img": "matcha.jpg"
+          },
+          "id": 1
+        },
+        {
+          "amount": "1",
+          "products": {
+            "id": 10,
+            "name": "Strawberry Smooth",
+            "price": 23000,
+            "is_ready": true,
+            "img": "strawberry smooth.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
     }
-  ],
-  "order": []
+  ]
 }
